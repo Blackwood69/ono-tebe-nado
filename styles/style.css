@@ -1,37 +1,59 @@
 .header {
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 92px 49px 2643px 51px;
+  font-size: 18px;
+  font-family: Raleway, serif;
+  font-weight: normal;
 }
 
 
 .header__logo {
-
+  display: block;
+  width: 148px;
+  height: 105px;
 }
 
 .header__logo-image {
-
-
+  width: 100%;
 }
 
 .header__menu {
-
+    width: 388px;
 }
 
 .header__links-list {
-
-}
+    display: flex;
+    justify-content: space-between;
+    list-style: circle;
+    }
 
 .header__links-list-item_no-bullit {
+  list-style: none;
 
 }
 
 .header__links-list-item {
-
+  text-transform: lowercase;
 }
 
 .header__link {
-
+  font-style: normal;
+  text-underline-position: under;
 }
 
-.header__link_active {
-    
+.header__link_active .header__link {
+  text-decoration: none;
+}
+
+.address {
+  width: 240px;
+  
+} 
+
+.header__address {
+  display: flex;
+  flex-direction: column;
+  
 }
